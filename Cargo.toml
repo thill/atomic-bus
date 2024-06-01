@@ -1,0 +1,14 @@
+[package]
+name = "atomic-bus"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["Eric Thill"]
+repository = "https://github.com/thill/atomic-bus"
+description = "Atomic MPMC Bus"
+keywords = ["nonblocking", "mpmc", "bus"]
+categories = ["concurrency"]
+exclude = ["Cargo.lock"]
+
+[dependencies]
+arc-swap = "1.7.1"
